@@ -1,5 +1,3 @@
-# Magic
-
 # Getting Started
 - [Demo Codesandbox App]()
 - Clone and run locally
