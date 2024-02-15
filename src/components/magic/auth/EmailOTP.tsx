@@ -30,6 +30,16 @@ const EmailOTP = ({ token, setToken }: LoginProps) => {
           throw new Error('Magic login failed');
         }
 
+        if (token) {
+          const res = await fetch('/api/login', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              Authorization: `Bearer ${token}`,
+            }
+          })
+        }
+
         setToken(token);
         saveUserInfo(token, 'EMAIL', metadata?.publicAddress);
         setEmail('');
