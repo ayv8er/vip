@@ -72,7 +72,7 @@ userData = {
 ![Screenshot 2024-02-14 at 18 22 14](https://github.com/ayv8er/vip/assets/84942969/0137f8b6-0526-47a3-ac7d-9ca9eb20133c)
 # NFT Mint and Delivery
 - [1 minute video demo of mint and delivery call just after login](https://www.loom.com/share/918b49ed9ec84d9abae239afa835c1bd?sid=f52392d9-8a10-42fb-b85f-d8205b8da647)
-- Estimated time to configure smart contract to Magic's Mint and Delivery API is 2 days.
+- Estimated time to configure deployed smart contract to Magic's Mint and Delivery API is 2 days.
 - [NFT Mint and Delivery API Docs](https://magic.link/docs/nfts/features/minting-and-delivery)
 ### Call to one Magic endpoint mints and delivers on-demand
 - Minter tool integrates with any payment provider
